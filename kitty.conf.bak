@@ -1,0 +1,33 @@
+# BEGIN_KITTY_FONTS
+font_family      family="Lekton Nerd Font Mono"
+bold_font        auto
+# italic_font      auto bold_italic_font auto
+# END_KITTY_FONTS
+background_opacity 0.0
+#kung di naka twm 0 lang dapat to kasi may blur na hyprland
+background_blur 0 
+font_size 17.0
+cursor #00bdbc
+shell_integration no-cursor
+cursor_shape block
+cursor_shape_unfocused hollow
+scrollback_indicator_opacity 1.0
+wheel_scroll_min_lines 10
+touch_scroll_multiplier 10.0
+open_url_with default
+window_padding_width 15 
+cursor_blink_interval 0.05 
+cursor_trail 1
+cursor_trail_decay 0.01 0.6
+cursor_trail_start_threshold 1
+
+#para walang ng confirm kung i cclose kitty
+confirm_os_window_close 0
+
+#para hindi ctrlx+shift+c
+map ctrl+c copy_or_interrupt
+
+# BEGIN_KITTY_THEME
+# One Dark
+include current-theme.conf
+# END_KITTY_THEE
